@@ -17,7 +17,7 @@ class ResponsiveLayout extends StatelessWidget {
 
   static final int tinyHeightLimit = 100;
   static final int tinyLimit = 270;
-  static final int phoneLimit = 550;
+  static final int phoneLimit = 800;
   static final int tabletLimit = 800;
   static final int largeTabletLimit = 1100;
 

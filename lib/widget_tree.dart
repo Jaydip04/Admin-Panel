@@ -40,7 +40,7 @@ class _WidgetTreeState extends State<WidgetTree> {
             ? PanelLeftPage()
             : currentIndex == 1
                 ? PanelCenterPage()
-                : PanelCenterPage(),
+                : PanelRightPage(),
         tablet: Row(
           children: [
             Expanded(child: PanelLeftPage()),
